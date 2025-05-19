@@ -13,3 +13,12 @@
  *= require_tree .
  *= require_self
  */
+.bg{
+  --bs-bg-opacity: 0.5;
+  background-color: rgba(var(--bs-warning-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bgb{
+  --bs-bg-opacity: 0.5;
+  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+}
